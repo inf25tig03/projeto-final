@@ -1,0 +1,179 @@
+/* O contentor principal que alinha tudo na horizontal com Flexbox */
+body{
+    background-image: url(../doc/imagens/games.jpg );
+
+}
+h1 {
+    background-color: #1a1a1a; 
+    border: 2px solid #3498db; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    text-align: center;
+}
+h2{
+    background-color: #1a1a1a;
+    border: 2px solid #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;  
+    text-align: center; 
+}
+
+.rodape{
+    margin-top: 150px;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    border: 2px solid #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.rodape a:link { color: yellow; text-decoration: none; }
+.rodape a:hover { color: green; text-decoration: overline; }
+.rodape a:active { color: red; }
+#texto {
+    background-color: #1a1a1a; 
+    border: 2px solid #3498db; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+
+}
+    
+
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px; 
+    padding: 300px 100px 20px 20px;
+    overflow-x: auto; 
+    background-color: black;
+    border-radius: 10px;
+
+    
+}
+
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-dot {
+    width: 25px;
+    height: 25px;
+    background-color: #3498db; 
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.5); 
+    background-color: green; 
+}
+
+.timeline-year {
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.timeline-content { 
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: left;
+    transition: opacity 0.3s ease, visibility 0.3s ease, bottom 0.3s ease;
+    z-index: 10;
+}
+
+.timeline-item:hover .timeline-content {
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.timeline-content h3 { margin: 0 0 10px 0; font-size: 16px; color:#3498db; }
+.timeline-content p { margin: 0; font-size: 13px; line-height: 1.4; }
+
+.timeline-img {
+    width: 100%; 
+    max-height: 140px; 
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.selos-w3c {
+    margin-top: 20px;
+}
+
+
+.selos-w3c img {
+    height: 31px;
+    border: none;
+}
+
+.selo-html {
+    margin-right: 5px;
+}
+
+.selo-css {
+    width: 88px;
+}
+#link_baixar {
+
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 900px) {
+    .timeline {
+        padding: 150px 20px 20px 20px; 
+    }
+}
+
+
+@media (max-width: 600px) {
+    .timeline {
+        flex-direction: column; 
+        padding: 50px 10px;
+        gap: 20px;
+    }
+    .timeline-content {
+        position: relative; 
+        bottom: 0;
+        visibility: visible; 
+        opacity: 1;
+        width: 90%;
+        margin-bottom: 20px;
+        border: 2px solid #3498db; 
+    }
+}
+
+@media print {
+    body { background-image: none; background-color: white; color: black; }
+    h1, h2, #texto { background-color: white; border: none; color: black; }
+    .timeline-content { visibility: visible; opacity: 1; position: relative; bottom: 0; border: 1px solid black; }
+    .rodape, .selos-w3c { display: none; } /* Esconde o rodapé e os selos no papel */
+}

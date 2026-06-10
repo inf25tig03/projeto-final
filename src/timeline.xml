@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game_evolution xmlns="http://www.evolucao-gaming.pt"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.evolucao-gaming.pt schema.xsd">
+<era decada="1950">
+    <evento>
+        <imagem>../doc/imagens/OXO_emulado.png</imagem>
+        <ano_fund>1952</ano_fund>
+        <titulo>Tipico jogo do galo transformado digitalmente </titulo>
+        <consola>EDSAC(Electronic Discrete Variable Automatic Computer)</consola>
+        <jogo_iconico>Jogo do Galo</jogo_iconico>
+        <preco>300.000</preco>
+        <descricao>Desenvolvido em 1952 por A. S. Douglas, OXO (também conhecido como Noughts and Crosses) é 
+            uma simulação do clássico jogo do galo e um dos grandes marcos iniciais da história dos video jogos.
+            O título foi criado como parte de uma tese sobre interação humano-computador para a Universidade de Cambridge e rodava no EDSAC,
+            um dos primeiros computadores a armazenar programas e possuir memória de leitura e gravação. 
+            A grande inovação de Douglas foi adaptar uma das três telas de tubo de raios catódicos da máquina, 
+            originalmente usadas para monitorar a memória, para exibir o tabuleiro e as jogadas ao usuário. 
+            Embora o código original tenha sido descartado após a conclusão do estudo, o jogo foi reconstruído com sucesso anos mais tarde.
+            Hoje, junto a um jogo de damas da mesma época, o OXO é famoso por ser pioneiro no uso de elementos visuais em telas eletrônicas. 
+            Apenas existe um debate histórico sobre ele ser oficialmente o "primeiro videogame do mundo",
+            já que alguns especialistas o excluem dessa categoria por ser um jogo estático, sem movimentação gráfica em tempo real, 
+            mas a sua importância para a evolução tecnológica é indiscutível.
+        </descricao>
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/Tennis_For_Two_on_a_DuMont_Lab_Oscilloscope_Type_304-A.jpg</imagem>
+        <ano_fund>1958</ano_fund>   
+        <titulo>Tennis for Two</titulo>
+        <consola>Computador analogico Donner</consola>
+        <jogo_iconico>Jogo de Tenis </jogo_iconico>
+        <preco>1.150</preco>
+       <descricao>Desenvolvido em 1958 pelo físico William Higinbotham com a ajuda do técnico Robert V. Dvorak, 
+        Tennis for Two é um simulador pioneiro e frequentemente considerado o primeiro jogo eletrônico da história criado puramente para entretenimento. 
+        O título foi desenvolvido em quase três semanas para uma exposição anual no Laboratório Nacional de Brookhaven, 
+        utilizando um computador analógico Donner — originalmente destinado a pesquisas governamentais, 
+        mas capaz de simular trajetórias com a resistência do vento — e exibindo os seus gráficos através da tela de um osciloscópio. 
+        A jogabilidade mostrava a visão lateral de um campo de ténis, onde os jogadores usavam controladores de alumínio personalizados, 
+        girando um botão para ajustar o ângulo da raquetada e pressionando outro para rebater a bola por cima da rede. 
+        O jogo foi um enorme sucesso na exposição, atraindo longas filas de estudantes,
+         e chegou a receber uma versão aprimorada no ano seguinte com simulação de gravidade, antes de ser desmontado e esquecido.
+          A sua importância histórica só foi resgatada no final dos anos 1970, durante disputas judiciais de patentes de video jogos, 
+          consolidando a obra como um marco absoluto por ter sido projetada exclusivamente para a diversão do público, 
+          distanciando-se de criações anteriores que eram apenas testes académicos ou demonstrações de tecnologia comercial.
+        </descricao>  
+    </evento>
+</era>
+<era decada="1960">
+        <evento>
+        <imagem>../doc/imagens/Spacewar!-PDP-1-20070512.jpg</imagem>
+        <ano_fund>1962</ano_fund>
+        <titulo>Spacewar</titulo>
+        <consola>DEC PDP-1 (Programmed Data Processor-1)</consola>
+        <jogo_iconico>Simulação de combate espacial</jogo_iconico>
+        <preco>250.000</preco>
+       <descricao>Concebido em 1961 no MIT e desenvolvido ao longo de 1962 por Steve Russell em colaboração com outros estudantes, Spacewar! 
+        É um pioneiro simulador de combate espacial e um dos títulos mais influentes da história dos videojogos. 
+        Programado originalmente para o minicomputador DEC PDP-1,
+        o projeto destacou-se por ser o primeiro jogo eletrónico conhecido a ser partilhado e jogado em múltiplas instalações informáticas (na sua maioria académicas).
+         A sua jogabilidade inovadora, com gráficos monocromáticos, coloca dois jogadores no controlo de naves ("agulha" e "cunha") que batalham ao redor do 
+         poço gravitacional de uma estrela. Incorporando uma física realista onde as naves mantêm o momento mesmo sem aceleração, 
+         o jogo exige a gestão de combustível e torpedos limitados, permitindo usar a gravidade da estrela para manobras ou o arriscado recurso de saltar para 
+         o hiperespaço para escapar de ataques. Inicialmente operado pelos interruptores do próprio computador, 
+         a sua exigência tática motivou a criação de um dos primeiros comandos (gamepads) personalizados da história. 
+         Extremamente popular na comunidade de programação dos anos 60, Spacewar! inspirou diretamente os primeiros sucessos das máquinas de fliperama (arcades), 
+         como Computer Space e Asteroids, e integra hoje o prestigiado cânone de videojogos da Biblioteca do Congresso dos Estados Unidos.
+        </descricao>  
+    </evento>
+</era>
+<era decada="1970">
+    <evento>
+        <imagem>../doc/imagens/p0gzwdq5.jpg.webp</imagem>
+        <ano_fund>1972</ano_fund>
+        <titulo>Primeira Consola domestica comercial</titulo>
+        <consola> Magnavox Odyssey</consola>
+        <jogo_iconico>Ping-Pong</jogo_iconico>
+        <preco>100.00</preco>
+       <descricao>Lançado em setembro de 1972 e antecipando o famoso Pong da Atari, o Magnavox Odyssey carrega o título absoluto de ser a primeira consola de videojogos 
+        doméstica comercial da história. Desenvolvida por Ralph Baer, que iniciou o projeto em 1966 e o concluiu em 1968 com um protótipo apelidado de Brown Box 
+        (hoje exposto no museu Smithsonian, em Washington), a máquina destacou-se por utilizar um sistema de hardware digital, 
+        embora seja frequentemente e erroneamente classificada como analógica devido a incompreensões sobre o seu design técnico. 
+        </descricao>  
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/Signed_Pong_Cabinet.jpg</imagem>
+        <ano_fund>1972</ano_fund>
+        <titulo>O jogo simula uma partida simplificada de ténis de mesa </titulo>
+        <consola>Home Pong</consola>
+        <jogo_iconico>Ténis de mesa</jogo_iconico>
+        <preco>200.00</preco>
+        <descricao>Lançado originalmente em 1972 pela Atari, Pong é um jogo de arcade bidimensional com temática de ténis de mesa e o título responsável por 
+            estabelecer definitivamente a indústria dos videojogos. 
+            O projeto nasceu de forma curiosa: foi criado pelo engenheiro Allan Alcorn apenas como um exercício de treino atribuído por Nolan Bushnell, 
+            cofundador da Atari. No entanto, o resultado final impressionou tanto que a empresa decidiu lançá-lo no mercado.
+             A sua mecânica foi inspirada num jogo de ping-pong da consola Magnavox Odyssey, o que acabou por render à Atari um processo judicial por violação de 
+             patentes. Apesar das controvérsias, Pong tornou-se o primeiro videojogo comercialmente bem-sucedido da história, 
+             gerando uma onda de clones por parte da concorrência, o que obrigou a Atari a continuar a inovar e a criar novos estilos de jogos. 
+             O fenómeno expandiu-se ainda mais no Natal de 1975 com o lançamento de uma versão doméstica extremamente popular, vendida em parceria com as lojas Sears. 
+             Graças ao seu impacto cultural gigantesco e ao seu papel na popularização do entretenimento digital, 
+             a obra faz hoje parte da coleção permanente do prestigioso museu Smithsonian, em Washington, D.C.
+            </descricao>
+    </evento>
+        <evento>
+        <imagem>../doc/imagens/Atari-2600-Wood-4Sw-Set.png</imagem>
+        <ano_fund>1977</ano_fund>
+        <titulo>Ele revolucionou o mercado ao popularizar o uso de cartuchos de jogos intercambiáveis</titulo>
+        <consola>Atari 2600</consola>
+        <jogo_iconico>Space Invaders e Asteroids</jogo_iconico>
+        <preco>199.00</preco>
+        <descricao>Lançado originalmente nos Estados Unidos em setembro de 1977 sob o nome Atari Video Computer System (Atari VCS),
+             o Atari 2600 é o icónico sistema da 2ª geração que consolidou a cultura dos videojogos a nível mundial. 
+             Projetado por Jay Miner e comercializado pelo preço inicial de 199 dólares, 
+             o aparelho vendeu mais de 27 milhões de unidades e só foi oficialmente descontinuado em 1992. 
+             O seu sucesso estrondoso foi impulsionado por uma grande variedade de controladores — como o clássico joystick, os paddles e trackballs — 
+             e por fenómenos como Pac-Man, o jogo mais vendido da plataforma com 7 milhões de cópias. 
+             Anos mais tarde, em março de 2017, a nostalgia em torno do aparelho motivou a Tectoy a lançar o Atari Flashback 7, uma versão comemorativa com 101 jogos na memória, celebrando o legado imortal do sucessor do sistema Pong.</descricao>
+    </evento>
+</era>
+<era decada="1980">
+        <evento>
+            <imagem>../doc/imagens/Donkey_Kong_arcade.jpg</imagem>
+            <ano_fund>1980</ano_fund>
+            <titulo>Maquina do famoso salão de jogos </titulo>
+            <consola>Arcade</consola>
+            <jogo_iconico>Pac-Man , Donkey Kong e Mario</jogo_iconico>
+            <preco>4.000</preco>
+            <descricao>O arcade é um aparelho integrado de jogo eletrônico instalado em estabelecimentos de entretenimento. 
+                A sua estrutura básica é composta por um gabinete (caixa de madeira ou plástico), monitor de vídeo, fonte de alimentação, controlos e um sistema de jogo.
+                Este sistema interno varia consoante o fabricante, podendo ser composto por uma placa única ou por conjuntos de placa-mãe e cartuchos 
+                (como os famosos sistemas SNK Neo-Geo e Capcom CPS). Para reduzir custos, os proprietários podiam facilmente trocar apenas o sistema de jogo 
+                e manter a estrutura do gabinete com os controlos e monitor originais. No entanto, existem também os chamados "arcades dedicados", 
+                desenvolvidos especificamente para um único título que não pode ser substituído, 
+                como simuladores de corrida, jogos de tiro com armas óticas ou pistas de dança.</descricao>
+        </evento>
+        <evento>
+            <imagem>../doc/imagens/il_fullxfull.3897769487_t5el.jpg.webp</imagem>
+            <ano_fund>1985</ano_fund>
+            <titulo>Consola que Salvou o Video Game Crash de 1983</titulo>
+            <consola>Nintendo Entertainment System</consola>
+            <jogo_iconico>Super Mario Bros</jogo_iconico>
+            <preco>89.00</preco>
+            <descricao>Lançado originalmente no Japão em julho de 1983 como Family Computer (Famicom) e 
+                reestilizado para o mercado norte-americano como Nintendo Entertainment System (NES) entre 1985 e 1986, 
+                este icónico sistema de 8 bits foi a primeira consola doméstica programável da Nintendo. 
+                Projetado pelo engenheiro Masayuki Uemura sob o pedido do presidente da empresa, Hiroshi Yamauchi, 
+                que desejava um aparelho simples e barato capaz de rodar jogos de arcade por cartuchos,
+                o hardware baseou-se no sucesso Donkey Kong (1981) e herdou o design dos seus comandos das consolas portáteis Game e Watch.
+                Para vencer a resistência das lojas ocidentais após a crise dos videojogos, Lance Barr e Don James redesenharam o aparelho para que se parecesse com 
+                um leitor de cassetes de vídeo (VCR), e a Nintendo lançou periféricos marcantes como a pistola de luz Zapper e o robô de brinquedo R.O.B.. 
+                Sendo a principal concorrente do Master System da Sega na 3ª geração, a consola — que no Japão ainda recebeu o acessório Famicom Disk System para 
+                rodar jogos em disquetes — tornou-se um fenómeno global indispensável para a revitalização e consolidação da indústria dos videojogos nos anos 1980.</descricao>
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/Unknown.jpg</imagem>
+        <ano_fund>1989</ano_fund>
+        <titulo>Consola Portatil</titulo>
+        <consola>Gameboy</consola>
+        <jogo_iconico>Tetris e Pokémon Red e Blue</jogo_iconico>
+        <preco>99.00</preco>
+        <descricao>Lançado originalmente no Japão em abril de 1989 e chegando ao Ocidente entre 1989 e 1990, 
+            o Game Boy é a icónica consola portátil da Nintendo que revolucionou o mercado dos videojogos. 
+            Projetado pela divisão ReD1 sob a liderança de Gunpei Yokoi e Satoru Okada, 
+            o aparelho foi a primeira portátil da empresa a utilizar cartuchos de ROM intercambiáveis, sucedendo à linha Game e Watch. 
+            Adotando a filosofia de Yokoi de utilizar tecnologia madura e de baixo custo, a Nintendo priorizou o preço acessível, 
+            a enorme autonomia de pilhas e a extrema durabilidade do hardware em detrimento de ecrãs coloridos ou processadores potentes, 
+            o que permitiu ao Game Boy (com o seu ecrã monocromático e processador de 8 bits) esmagar concorrentes tecnologicamente superiores na 4ª geração,
+             como o Game Gear da Sega e o Atari Lynx.</descricao>
+
+    </evento>
+</era>
+<era decada="1990">
+    <evento>
+        <imagem>../doc/imagens/PSX-Console-wController.png</imagem>
+        <ano_fund>1994</ano_fund>
+        <titulo>Primeira Consola da Sony </titulo>
+        <consola>PlayStation</consola>
+        <jogo_iconico>Resident Evil 2</jogo_iconico>
+        <preco>299.00</preco>
+        <descricao>Lançado originalmente no Japão em dezembro de 1994 e chegando ao Ocidente em setembro de 1995, 
+            o PlayStation (conhecido pelo codenome PSX e retroativamente apelidado de PS1) é a consola de estreia da Sony Computer Entertainment que 
+            revolucionou a indústria dos videojogos. 
+            A Sony iniciou o desenvolvimento do sistema após o fracasso de uma parceria com a Nintendo para criar um periférico de CD-ROM para o Super
+            Nintendo no início dos anos 1990. Projetada principalmente por Ken Kutaragi no Japão, a consola de 5ª geração colocou os gráficos poligonais em 3D na 
+            vanguarda do seu design para competir diretamente com o Nintendo 64 e o Sega Saturn. Ao adotar o formato de CD e focar-se numa produção de jogos simplificada e 
+            acessível, a Sony conseguiu atrair um apoio massivo de produtoras externas (third-party developers), transformando o PlayStation num fenómeno global de vendas e 
+            num pilar cultural do entretenimento digital.
+            </descricao>
+
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/N64-Console-Set.png</imagem>
+        <ano_fund>1996</ano_fund>
+        <titulo>Consola revolucionaria com gráficos 3D imersivos e o controlo analógico</titulo>
+        <consola>Nintendo 64</consola>
+        <jogo_iconico>Super Mario 64</jogo_iconico>
+        <preco>199.00</preco>
+        <descricao>Lançado originalmente no Japão em junho de 1996 e chegando ao Ocidente entre 1996 e 1997, 
+            o Nintendo 64 (N64) é a terceira grande consola doméstica da Nintendo e um marco na transição da indústria para os gráficos tridimensionais.
+             Desenvolvido a partir de 1993 em parceria com a Silicon Graphics e batizado em homenagem à sua CPU de 64 bits, 
+             o sistema contava com um coprocessador inovador que processava áudio e vídeo de forma independente para criar ambientes em 3D complexos. 
+             A consola competiu diretamente com o Sony PlayStation e o Sega Saturn na 5ª geração, destacando-se no mercado pelo foco no multijogador graças às suas 
+             quatro portas de comandos nativas e pelo seu comando revolucionário, o primeiro a incluir um manípulo analógico (thumbstick) como recurso padrão de fábrica.
+            </descricao>
+    </evento>
+</era>
+<era decada = "2000">
+<evento>
+    <imagem>../doc/imagens/PS2-Versions.png</imagem>
+    <ano_fund>2000</ano_fund>
+    <titulo>A consola mais famosa do mundo</titulo>
+    <consola>PlayStation 2 </consola>
+    <jogo_iconico>Grand Theft Auto: San Andreas e Bully </jogo_iconico>
+    <preco>99.99</preco>
+    <descricao>Lançada originalmente no Japão em março de 2000 e distribuída globalmente no final do mesmo ano, 
+        a PlayStation 2 (PS2) é a sucessora da PlayStation original e a consola doméstica mais vendida de todos os tempos. 
+        Desenvolvida pela Sony Computer Entertainment após o sucesso estrondoso do seu primeiro sistema, a máquina integrou a 6ª geração de consolas, 
+        onde competiu diretamente com o Sega Dreamcast, o Nintendo GameCube e o Microsoft Xbox. O grande diferencial da PS2 residiu no seu incrível valor de mercado: 
+        além de ser um videojogo potente alimentado pelo processador personalizado Emotion Engine (co-desenvolvido com a Toshiba), 
+        ela trazia um leitor de DVD embutido por um preço inferior ao dos leitores de DVD dedicados da época. Esta estratégia, combinada com a retrocompatibilidade
+         total com os jogos e acessórios da primeira PlayStation, garantiu-lhe uma biblioteca gigantesca desde o primeiro dia, transformando-a num sucesso comercial 
+         absoluto e num marco incontornável da cultura pop global.
+        </descricao>
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/Xbox-360-Pro-wController.jpg</imagem>
+        <ano_fund>2005</ano_fund>
+        <titulo>Maior concorrente da Sony</titulo>
+        <consola>Xbox 360</consola>
+        <jogo_iconico>Kinect Adventures!,Halo 3</jogo_iconico>
+        <preco>299.00</preco>
+        <descricao>Revelada oficialmente em maio de 2005 e lançada no final do mesmo ano, a Xbox 360 é a sucessora da Xbox original e a segunda 
+            consola doméstica desenvolvida pela Microsoft. Integrante da 7ª geração de consolas, 
+            o sistema competiu diretamente com o Sony PlayStation 3 e o Nintendo Wii. 
+            O grande trunfo da Xbox 360 foi a expansão e evolução da Xbox Live, o seu serviço online que transformou a experiência de jogo na internet 
+            através de modalidades gratuitas e por subscrição, permitindo partidas multijogador, download de demonstrações e títulos independentes 
+            (via Xbox Live Arcade), além do streaming de música, filmes e séries. Ao longo do seu ciclo de vida, a consola recebeu diversos periféricos marcantes, 
+            como comandos sem fios, discos rígidos expandidos e o Kinect, um sensor de movimentos por câmara que dispensava o uso de controlos. 
+            Graças a este ecossistema de serviços e acessórios, a marca Xbox deixou de ser uma plataforma focada apenas em jogos e evoluiu para uma central 
+            multimédia completa, consolidando-se como o principal centro de entretenimento e computação na sala de estar de milhões de utilizadores.
+        </descricao>
+    </evento>
+        <evento>
+            <imagem>../doc/imagens/Wii-Console.png</imagem>
+            <ano_fund>2006</ano_fund>
+            <titulo>Consola da nostálgia</titulo>
+            <consola>Nintendo Wii</consola>
+            <jogo_iconico>Wii Sports</jogo_iconico>
+            <preco>100.00</preco>
+            <descricao>Lançado no final de 2006, o Wii é a quinta grande consola doméstica da Nintendo e um dos maiores fenómenos de vendas da indústria dos videojogos.
+                Integrante da 7ª geração ao lado do Xbox 360 e do PlayStation 3, o sistema foi concebido sob a liderança do presidente da Nintendo, 
+                Satoru Iwata, e dos lendários criadores Shigeru Miyamoto e Genyo Takeda. Em vez de competir diretamente com a Microsoft e a 
+                Sony pelo poder gráfico bruto, o projeto (inicialmente conhecido pelo codenome Revolution) focou-se em atrair um 
+                público muito mais amplo através de uma jogabilidade inovadora baseada no Wii Remote, um comando sem fios com sensores de movimento capaz de
+                reconhecer gestos e funcionar como um apontador virtual.
+                </descricao>
+    </evento>
+
+</era>
+<era decada="2010">
+    <evento>
+        <imagem>../doc/imagens/PS4-Console-wDS4.jpg</imagem>
+        <ano_fund>2013</ano_fund>
+        <titulo>A consola mais duradoura</titulo>
+        <consola>Playstation 4</consola>
+        <jogo_iconico>Grand Theft Auto V,Marvel's Spider-Man,God of War</jogo_iconico>
+        <preco>399.99</preco>
+        <descricao>Lançada no final de 2013 na América do Norte, Europa e América do Sul (e no início de 2014 no Japão), 
+            a PlayStation 4 (PS4) é a sucessora da PlayStation 3 e uma das consolas mais marcantes da 8ª geração, onde competiu diretamente com 
+            a Xbox One da Microsoft e com a Wii U e a Switch da Nintendo. Afastando-se da complexa arquitetura Cell do seu modelo anterior, 
+            a Sony equipou a PS4 com uma APU da AMD baseada na arquitetura x86-64 — capaz de atingir um pico teórico de 1,84 teraflops —, 
+            considerada na altura a unidade de processamento mais potente desenvolvida pela AMD.</descricao>
+    </evento>
+
+    <evento>
+        <imagem>../doc/imagens/Microsoft-Xbox-One-Console-Set-wKinect.jpg</imagem>
+        <ano_fund>2013</ano_fund>
+        <titulo>Concorrente direta a ps4</titulo>
+        <consola>Xbox One </consola>
+        <jogo_iconico>Halo 5: Guardians,Call of Duty: Infinite Warfare,FIFA 17</jogo_iconico>
+        <preco>499.00</preco>
+        <descricao>Anunciada em maio de 2013 e lançada no mercado global em novembro do mesmo ano (chegando à China e ao Japão em setembro de 2014),
+             a Xbox One é a sucessora da Xbox 360 e a terceira consola doméstica da Microsoft. Integrante da 8ª geração de sistemas,
+              onde competiu diretamente com a PlayStation 4 da Sony e com a Wii U e a Switch da Nintendo,
+               a plataforma carregou o marco histórico de ser a primeira consola de videojogos a ser lançada oficialmente na China através da
+                Zona de Livre Comércio de Xangai. A Microsoft desenhou e promoveu o aparelho como um sistema de entretenimento "tudo-em-um" 
+                (all-in-one, a razão por trás do nome "One"), integrando no mesmo dispositivo capacidades avançadas de jogos, televisão, música e
+                 aplicações multimédia para transformar a consola no coração tecnológico definitivo da sala de estar.</descricao>
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/78bada3f-1666-4afa-ae97-4036cfe9d942-1_c98995c0-752b-407c-a94c-21cf87240fdf.jpg</imagem>
+        <ano_fund>2017</ano_fund>
+        <titulo>Tentativa de renascer das cinzas</titulo>
+        <consola>Nintendo Switch</consola>
+        <jogo_iconico>Mario Kart 8 Deluxe,Animal Crossing: New Horizons,The Legend of Zelda: Breath of the Wild</jogo_iconico>
+        <preco>399.00</preco>
+        <descricao>Lançada mundialmente a 3 de março de 2017, a Nintendo Switch é a sucessora da Wii U e a primeira consola híbrida da Nintendo,
+             posicionando-se de forma única no mercado ao competir tanto com os sistemas da 8ª geração (PlayStation 4 e Xbox One) como com os da 9ª geração 
+             (PlayStation 5 e Xbox Series X/S). O grande trunfo do seu design é a versatilidade: o aparelho consiste num tablet que pode ser acoplado a uma base 
+             (dock) para jogar na televisão ou retirado para ser utilizado instantaneamente como um dispositivo portátil.
+            </descricao>
+    </evento>
+</era>
+    <era decada="2020">
+         <evento>
+            <imagem>../doc/imagens/ps5-product-thumbnail-01-en-14sep21.webp</imagem>
+            <ano_fund>2020</ano_fund>
+            <titulo>A nova maquina dos video jogos</titulo>
+            <consola>Playstation 5</consola>
+            <jogo_iconico>Gran Turismo 7,Marvel's Spider-Man 2,Ratchet e Clank: Rift Apart[a]</jogo_iconico>
+            <preco>499.99</preco>
+            <descricao>Anunciada em abril de 2019 e lançada globalmente em novembro de 2020,
+                a PlayStation 5 (PS5) é a quinta iteração da marca da Sony Interactive Entertainment e um dos pilares da 9ª geração de consolas, 
+                onde compete diretamente com os sistemas Xbox Series X/S da Microsoft. No seu lançamento, 
+                a consola foi disponibilizada simultaneamente em duas variantes: o modelo base, equipado com uma unidade de disco ótico compatível com Ultra
+                HD Blu-ray, e a Digital Edition, uma alternativa de menor custo focada exclusivamente no download digital de jogos.
+                </descricao>
+    </evento>
+    <evento>
+        <imagem>../doc/imagens/344d0e61-f7d2-475f-9e88-2f1bbedb3d5f.png</imagem>
+        <ano_fund> 2020</ano_fund>
+        <titulo>A morte lenta</titulo>
+        <consola>Xbox Series X e a Xbox Series S</consola>
+        <jogo_iconico>Forza Horizon 6 e Elden Ring</jogo_iconico>
+        <preco>499.00</preco>
+        <descricao>Lançadas globalmente a 10 de novembro de 2020, a Xbox Series X e a Xbox Series S integram a quarta geração da família Xbox da Microsoft, 
+            competindo diretamente na 9ª geração de consolas ao lado da PlayStation 5 da Sony. Mantendo a arquitetura de processamento AMD de 64 bits herdada da 
+            Xbox One, o grande salto tecnológico desta geração reside na inclusão de discos de estado sólido (SSD) para reduzir drasticamente os tempos de 
+            carregamento, além do suporte a ray-tracing acelerado por hardware, áudio espacial e à tecnologia Auto HDR, que utiliza inteligência artificial 
+            para converter jogos antigos para alta variação dinâmica de cor.
+        </descricao>
+    </evento>
+        <evento>
+            <imagem>../doc/imagens/maxresdefault.jpg</imagem>
+            <ano_fund>2025</ano_fund>
+            <titulo>Tentativa de entrar na corrida dos grandes </titulo>
+            <consola>Nintendo Switch 2</consola>
+            <jogo_iconico>Pokémon Scarlet e Violet,Hollow Knight</jogo_iconico>
+            <preco>469.99</preco>
+            <descricao>Lançada na maioria das regiões a 5 de junho de 2025, a Nintendo Switch 2 é a sucessora direta da Nintendo Switch original, 
+                mantendo o aclamado conceito híbrido que permite a sua utilização como consola portátil, tablet ou ligada à televisão através de uma base (dock).
+                O sistema introduz os novos comandos Joy-Con 2, que agora se fixam magneticamente ao aparelho ou podem ser usados de forma destacada. Face ao modelo anterior,
+                a Switch 2 traz evoluções técnicas significativas, incluindo um ecrã LCD maior, mais capacidade de armazenamento interno, gráficos atualizados e melhorias nas 
+                funcionalidades sociais. Em modo portátil ou de mesa, o dispositivo passa a suportar resolução Full HD (1080p) com uma taxa de atualização fluida de 120 Hz, 
+                enquanto o modo na dock atinge a resolução 4K a 60 Hz, contando ainda com suporte para HDR em ambos os modos.</descricao>
+    </evento>
+    </era>
+</game_evolution>

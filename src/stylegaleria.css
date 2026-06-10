@@ -1,0 +1,100 @@
+
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.galeria-contentor {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.evento h3 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.evento img, .evento iframe {
+    width: 100%;
+    max-width: 550px;
+    height: 315px; 
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto; 
+    object-fit: contain; 
+    background-color: black; 
+}
+
+
+figcaption {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+    text-align: justify; 
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+footer a:link { color: red; text-decoration: none; }
+footer a:hover { color: green; text-decoration: overline; }
+footer a:active { color: yellow; }
+
+.selos-w3c {
+    margin-top: 20px;
+}
+
+
+.selos-w3c img {
+    height: 31px;
+    border: none;
+}
+
+.selo-html {
+    margin-right: 5px;
+}
+
+.selo-css {
+    width: 88px;
+}
+
+@media (max-width: 900px) {
+    .galeria-contentor { 
+        width: 95%; 
+    }
+}
+
+/* Telemóveis (até 600px) */
+@media (max-width: 600px) {
+    .evento img, .evento iframe {
+        height: 200px;
+    }
+    .evento h3 { 
+        font-size: 18px; 
+    }
+    figcaption {
+        font-size: 14px; 
+    }
+}
+
+@media print {
+    body { background-color: white; color: black; }
+    iframe { display: none; }
+    .evento { border-bottom: 1px dashed #ccc; padding-bottom: 20px; }
+    footer, .selos-w3c { display: none; }
+}

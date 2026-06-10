@@ -1,0 +1,279 @@
+
+body {
+    background-color: white;
+    text-align: center; 
+}
+
+img {
+    display: block;       
+    margin: 0 auto;       
+    width: 60%;           
+    min-width: 300px;     
+    margin-top: 40px;     
+}
+
+.Imagem p {
+    text-align: center;
+}
+
+#Linha-do-tempo a:link { color: skyblue; text-decoration: none; }
+#Linha-do-tempo a:hover { color: yellowgreen; text-decoration: underline; }
+#Linha-do-tempo a:visited { color: saddlebrown; }
+
+#Consolas-iconicas a:link { color: red; text-decoration: none; }
+#Consolas-iconicas a:hover { color: yellowgreen; text-decoration: underline; }
+#Consolas-iconicas a:visited { color: saddlebrown; }
+
+#Galeria a:link { color: plum; text-decoration: none; }
+#Galeria a:hover { color: yellowgreen; text-decoration: underline; }
+#Galeria a:visited { color: saddlebrown; }
+
+
+details {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin: 0 auto 15px auto; 
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 50%;
+}
+
+summary {
+    font-weight: bolder;
+}
+
+.formulario-contacto {
+    background-color: black; 
+    border: 2px solid white; 
+    border-radius: 8px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto; 
+    color: white;
+    text-align: left; 
+}
+
+.formulario-contacto h3 {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.grupo-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.grupo-input input,
+.grupo-input textarea {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-family: inherit; 
+    border: 1px solid #555;
+}
+
+.grupo-input input:focus,
+.grupo-input textarea:focus {
+    outline: none;
+    border-color: white; 
+}
+.botao-enviar {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.botao-enviar:hover {
+    background-color: green; 
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.selos-w3c {
+    margin-top: 20px;
+}
+
+
+.selos-w3c img {
+    height: 31px;
+    border: none;
+}
+
+.selo-html {
+    margin-right: 5px;
+}
+
+.selo-css {
+    width: 88px;
+}
+.selos-w3c img {
+    height: 31px;
+    border: none;
+    
+
+    display: inline-block; 
+    width: auto;          
+    min-width: 0;          
+    margin: 0;
+}
+
+.tops-gaming {
+    background-color: #1a1a1a; 
+    border-radius: 8px;
+    padding: 30px;
+    color: white;
+    width: 90%;
+    max-width: 450px;
+    margin: 40px auto; 
+    text-align: left; 
+}
+
+.tops-gaming h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border: none; 
+    padding: 0;
+}
+
+.tops-gaming ul {
+    list-style-type: square; 
+    padding-left: 20px;
+}
+
+
+.tops-gaming ol li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white; 
+}
+
+input[type="text"], input[type="email"] {
+    border-left: 4px solid #3498db;
+}
+
+h2::before {
+    content: "🎮 ";
+}
+
+
+.img-float {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.easter-egg {
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto 20px auto; 
+    padding: 15px;
+    background-color: #111; 
+    text-align: left; 
+    border: 1px dashed #333; 
+}
+
+.easter-egg p {
+    color: #888; 
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.easter-egg img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px; 
+    width: 50px;         
+    min-width: 0;        
+    height: auto;
+}
+
+mark {
+    background-color: #3498db; 
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.audio-retro p {
+    color: white;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: center;     
+}
+
+
+@media (max-width: 900px) {
+    details {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 600px) {
+    details {
+        width: 95%; 
+    }
+    img {
+        width: 90%; 
+        min-width: 0; 
+    }
+    .formulario-contacto, .tops-gaming, .easter-egg {
+        width: 95%; 
+        padding: 20px; 
+    }
+}
+
+
+@media print {
+    body { background-color: white; color: black; }
+    h1, h2, h3, p, label { color: black; }
+
+    details { 
+        background-color: white; 
+        color: black; 
+        border: 1px solid black; 
+        width: 100%; 
+        page-break-inside: avoid; 
+    }
+    
+    .menu-principal, 
+    .formulario-contacto, 
+    #btn-magia, 
+    .audio-retro, 
+    .easter-egg, 
+    footer, 
+    .selos-w3c {
+        display: none !important;
+    }
+}
